@@ -1,18 +1,13 @@
 var createArray = function() { 
-
   // Determine size of array
   var size = 10*Math.random(); 
-
   // Initiate array
   var array = []; 
-
   // From 0 to length of size, add one
   for (var i = 0; i < size; i++) { 
-
     // Add random number from 0 to 100 to array
     array.push(Math.floor(100*Math.random())); 
   } 
-
   // Returns array
   return array;
 }; 
@@ -34,7 +29,6 @@ var checkSorted = function(array) {
   }
 
   return true;
-
 };
 
 var bogoSort = function(array) {
